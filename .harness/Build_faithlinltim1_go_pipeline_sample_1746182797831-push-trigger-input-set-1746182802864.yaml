@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_faithlinltim1_go_pipeline_sample_1746182797831-push-trigger-input-set
+  identifier: Build_faithlinltim1_go_pipeline_sample_1746182797831pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_faithlinltim1_go_pipeline_sample_1746182797831
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
